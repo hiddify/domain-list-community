@@ -1,0 +1,3 @@
+domain:ir
+domain:iran
+domain:xn--mgba3a4f16a
