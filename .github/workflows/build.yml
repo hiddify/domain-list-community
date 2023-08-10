@@ -26,8 +26,8 @@ jobs:
           cd code
           echo "downloading from https://raw.githubusercontent.com/filteryab/filteryab/main/iran/blocked-in-iran"
           curl -L -o data/hiddify-ir-filteryab https://raw.githubusercontent.com/filteryab/ir-blocked-domain/main/data/ir-blocked-domain
-          echo "downloading from https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/domains.txt"
-          curl -L -o data/hiddify-ir-iran-hosted-domains https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/domains.txt
+          echo "downloading from https://github.com/MasterKia/iran-hosted-domains/releases/latest/download/domains.txt"
+          curl -L -o data/hiddify-ir-iran-hosted-domains https://github.com/MasterKia/iran-hosted-domains/releases/latest/download/domains.txt
           echo "removing .ir domains"
           grep -vE '\.ir$' data/hiddify-ir-iran-hosted-domains > 'data/hiddify-ir-iran-hosted-domains-!ir'
           echo "Downloading from https://raw.githubusercontent.com/freedomofdevelopers/fod/master/domains"
